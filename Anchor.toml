@@ -1,0 +1,12 @@
+[programs.localnet]
+shared_wallet = "EuAv4GbnaREmLgyd6QFqYSmM2ow9v125MHRjmyqoMjrc"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/nipun/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
